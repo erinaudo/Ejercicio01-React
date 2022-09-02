@@ -19,4 +19,4 @@ ComponentB.propTypes = {
 };
 
 
-export default ComponentB;
+export { ComponentB };
