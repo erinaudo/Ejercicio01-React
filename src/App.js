@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hola</p>
         {/* Llamamos al ComponentA */}  
         <ComponentA></ComponentA>
       </header>

@@ -5,10 +5,11 @@ import { Contacto } from '../../models/contact.class';
 const ComponentB = ({contacto}) => {
     return (
         <div>
-            <h1> { contacto.nombre } { contacto.apellido }</h1>
+            <h1> - { contacto.nombre } { contacto.apellido } - </h1>
             <h3>Direccion de email: { contacto.email } </h3>
             <br/>
-            <h4>Estado: { contacto.conectado ? "Contacto En Línea" : "Contacto No Disponible" } </h4>
+            <h3>Estado: </h3>
+            <h2>{ contacto.conectado ? "Contacto En Línea" : "Contacto No Disponible" } </h2>
         </div>
     );
 };
