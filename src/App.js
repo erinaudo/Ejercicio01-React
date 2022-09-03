@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Llamamos al ComponentA */}  
-        <ComponentA></ComponentA>
+       <ComponentA></ComponentA>
       </header>
     </div>
   );
