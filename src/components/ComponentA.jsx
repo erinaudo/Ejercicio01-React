@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Contacto } from '../../models/contact.class';
-import ComponentB from '../pure/ComponentB';
+import { Contacto } from '../models/contact.class';
+import ComponentB from './ComponentB';
 
 
 const ComponentA = ({contact}) => {
@@ -26,7 +26,7 @@ const ComponentA = ({contact}) => {
 
 
 ComponentA.propTypes = {
-
+    contact: PropTypes.instanceOf(Contacto)
 };
 
 
